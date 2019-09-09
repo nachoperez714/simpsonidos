@@ -1,0 +1,15 @@
+rootProject.name = 'Simpson'
+
+include ':react-native-share-file'
+project(':react-native-share-file').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-share-file/android')
+include ':react-native-play-sound'
+project(':react-native-play-sound').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-play-sound/android')
+
+//include ':react-native-fetch-blob'
+//project(':react-native-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fetch-blob/android')
+//include ':react-native-admob'
+//project(':react-native-admob').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-admob/android')
+
+
+
+include ':app'
